@@ -27,9 +27,9 @@ Must have installed:
 <ol>
   <li> ros2 launch sim one.launch.py </li>
   <li> ros2 launch yolo_bringup yolo.launch.py </li>
-  <li> ros2 run tracking_cpp counter </li>
+  <li> ros2 run sim counter </li>
   or
-  <li> ros2 run tracking_cpp search_only </li>
+  <li> ros2 run sim search_only </li>
 </ol>
 
 Note: Check the one.launch.py in ``ros2_tracker > sim > launch > one.launch.py`` for more detailed understanding of why the above mentioned required packages are necessary.
